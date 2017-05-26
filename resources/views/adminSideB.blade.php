@@ -1,9 +1,14 @@
 <div id="mySidenav" class="sidenav">
-    <div class="container-fluid" style="background-color: yellow">
-        <h1>Admin  side bar</h1>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-    </div>
+<div class="col-md-3" style="background-color: yellow" >
+    <h1>Admin side bar</h1>
+    <ul>
+
+        <li><a href="#">Apie</a></li>
+        <li><a href="{{route('app.admin.resources.store')}}">Ikelti</a></li>
+        <li><a href="{{route('app.admin.users.index')}}">Users</a></li>
+        <li><a href="{{route('app.admin.resources.index') }}">Resusrsai</a></li>
+        <li><a href="#">Patirciu kambariai</a></li>
+    </ul>
+
+</div>
 </div>
